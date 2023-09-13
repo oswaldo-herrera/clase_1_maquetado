@@ -3,30 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Clase 1</title>
+    <style>
+        /*
+        span{
+            color: white;
+            font-size: 50px;
+            text-decoration: none;
+        }
+
+        p{
+            color:white;
+        }
+
+        #parrafo_introduccion{
+            color: aqua;
+
+        }
+        .parrafo_blanco{
+            color: darkmagenta;
+            border: 20px red solid;
+        }
+        */
+    </style>
 </head>
-<body>
+<body style="background-color: rgb(241, 237, 237);">
     <h1>Términos de uso de Spotify</h1>
-    <a href="">1. Introducción</a>
+    <a href="#introduccion">1. Introducción</a>
     <br>
-    <a href="">2. El Servicio de Spotify que proporcionamos</a>
+    <a href="#servicio">2. El Servicio de Spotify que proporcionamos</a>
     <br>
-    <a href="">3. El uso del Servicio de Spotify</a>
+    <a href="#cuenta">3. El uso del Servicio de Spotify</a>
     <br>
-    <a href="">4. Derechos de propiedad intelectual y de contenido</a>
+    <a href="#cuatro">4. Derechos de propiedad intelectual y de contenido</a>
     <br>
-    <a href="">5. Servicio de atención al cliente, información, preguntas y quejas</a>
+    <!-- <a href="#cinco">5. Servicio de atención al cliente, información, preguntas y quejas</a>
     <br>
-    <a href="">6. Problemas y conflictos</a>
+    <a href="#seis">6. Problemas y conflictos</a>
     <br>
-    <a href="">7. Acerca de estos Términos</a>
+    <a href="#siete">7. Acerca de estos Términos</a> -->
 
-    <h2> <b> 1. Introducción </b> </h2>
-    <p>Lea atentamente los Términos de uso (los "Términos"), ya que rigen el uso de los servicios personalizados de Spotify (incluido el acceso a los mismos) para escuchar música y otros contenidos, incluidos todos los sitios web y aplicaciones de software que incorporan los Términos o se vinculan a ellos (en conjunto, el "Servicio de Spotify") y toda la música, los videos, los podcasts u otro material disponible en el Servicio de Spotify (el "Contenido").</p>
+    <h2 id="introduccion"> <b> 1. Introducción </b> </h2>
+    <p id="parrafo_introduccion">Lea atentamente los Términos de uso (los "Términos"), ya que rigen el uso de los servicios personalizados de Spotify (incluido el acceso a los mismos) para escuchar música y otros contenidos, incluidos todos los sitios web y aplicaciones de software que incorporan los Términos o se vinculan a ellos (en conjunto, el "Servicio de Spotify") y toda la música, los videos, los podcasts u otro material disponible en el Servicio de Spotify (el "Contenido").</p>
 
-    <p>El uso del Servicio de Spotify puede estar sujeto a otros términos y condiciones proporcionados por Spotify, los que se incorporan a estos Términos mediante esta referencia.</p>
+    <p class="parrafo_blanco">El uso del Servicio de Spotify puede estar sujeto a otros términos y condiciones proporcionados por Spotify, los que se incorporan a estos Términos mediante esta referencia.</p>
 
-    <p>Al registrarse en el Servicio de Spotify, o utilizarlo, usted acepta los Términos. Si no está de acuerdo con los Términos, no debe utilizar el Servicio de Spotify ni acceder a cualquier Contenido.</p>
+    <p class="parrafo_blanco">Al registrarse en el Servicio de Spotify, o utilizarlo, usted acepta los Términos. Si no está de acuerdo con los Términos, no debe utilizar el Servicio de Spotify ni acceder a cualquier Contenido.</p>
 
     <p> <b> Proveedor de servicios </b> </p>
     <p>Los Términos son acordados entre usted y Spotify AB, Regeringsgatan 19, 111, 53, Estocolmo, Suecia.</p>
@@ -36,7 +59,7 @@
     <p>Para utilizar el Servicio de Spotify y acceder a cualquier Contenido, usted debe (1) tener al menos 13 años (o la edad mínima equivalente en su país), (2) contar con el consentimiento de un padre, madre o tutor si en su país se lo considera menor de edad, (3) ser capaz de celebrar un contrato vinculante con nosotros sin que se lo prohíban las leyes pertinentes y (4) residir en un país en el cual esté disponible el Servicio. Además, usted promete que toda la información de registro que le entregue a Spotify es verdadera, precisa y completa, y se compromete a que esto se mantenga así. Si es menor de edad en su país, su padre, madre o tutor debe aceptar estos Términos en su nombre. Puede encontrar más información acerca de los requisitos de edad en el proceso de registro. Si usted no cumple con los requisitos de edad mínimos, no se puede registrar como usuario en Spotify.</p>
 
 
-    <h2> <b> 2. El Servicio de Spotify que proporcionamos </b> </h2>
+    <h2 id="servicio"> <b> 2. El Servicio de Spotify que proporcionamos </b> </h2>
     <p> <b> Opciones del Servicio de Spotify </b> </p>
 
     <p>Le proporcionamos varias opciones en el Servicio de Spotify. Algunas opciones del Servicio de Spotify se proporcionan de manera gratuita, mientras que para otras se debe pagar antes de poder acceder (las <b> "Suscripciones pagas" </b> ). Además, es posible que le ofrezcamos planes promocionales, membresías o servicios especiales, incluidos productos y servicios de terceros. No nos hacemos responsables de los productos y servicios proporcionados por terceros.</p>
@@ -65,7 +88,7 @@
 
     <p>Spotify no tiene ninguna responsabilidad ante usted, ni ninguna obligación de proporcionarle un reembolso en relación con cortes o fallas de internet u otros servicios, causados por las acciones de las autoridades gubernamentales, de otros terceros o de eventos que escapen a nuestro control.</p>
 
-    <h2> <b>3. El uso del Servicio de Spotify</b> </h2>
+    <h2 id="cuenta"> <b>3. El uso del Servicio de Spotify</b> </h2>
 
     <p> <b>Crear una cuenta de Spotify</b> </p>
 
@@ -136,13 +159,15 @@
 
     <p>Los productos de Spotify pueden estar sujetos a leyes y regulaciones de control de exportación y reexportación de EE. UU. o leyes similares pertinentes en otras jurisdicciones, incluidas las Regulaciones de Administración de Exportaciones ("EAR", por sus siglas en inglés) mantenidas por el Departamento de Comercio de EE.UU., las sanciones económicas y de intercambio mantenidas por el departamento de Tesorería de la Oficina de Control de Activos Extranjeros ("OFAC", por sus siglas en inglés) y las Regulaciones de Tráfico de Armas Internacionales ("ITAR", por sus siglas en inglés) mantenidas por el Departamento de Estado. Usted garantiza que (1) no se encuentra en ningún país al que Estados Unidos le haya embargado bienes o que haya aplicado alguna sanción económica y (2) que no es una parte denegada según se especifica en cualquier ley o regulación de reexportación o leyes similares aplicables en otras jurisdicciones u otros enumerados en cualquier lista de partes prohibidas o restringidas por el gobierno de EE.UU.</p>
 
-    <p>Usted acepta cumplir con las leyes y regulaciones de control de exportaciones y reexportaciones, incluidas, entre otras, las EAR y las sanciones económicas y de intercambio que mantiene la OFAC. Específicamente, acepta que no venderá, exportará, reexportará, transferirá, desviará, lanzará ni dispondrá de cualquier producto, software o tecnología (incluidos los productos derivados o basados en dicha tecnología), de manera directa o indirecta, que reciba de parte de Spotify conforme a los Términos a cualquier destino, entidad o persona prohibida por las EAR, las sanciones económicas y de intercambio mantenidas por la OFAC o cualquier otra ley o regulación pertinente de los Estados Unidos o cualquier otra jurisdicción sin obtener una autorización previa obligatoria de las autoridades gubernamentales competentes conforme a dichas leyes y regulaciones.</p>
-
-    <h2><b>4. Derechos de propiedad intelectual y de contenido</b></h2>
-    <p><b>Contenido de usuario</b></p>
-    <a href="">El contenido que usted publica en el servicio</a>
-
-    <p>Los usuarios de Spotify pueden publicar, subir o aportar contenido al Servicio de Spotify ("Contenido de usuario"). Para evitar dudas, el término "Contenido de usuario" incluye toda la información, los materiales y otro contenido que los usuarios agregan, crean, suben, envían, distribuyen o publican en el Servicio de Spotify (incluida a la Comunidad de soporte de Spotify).</p>
+    <p id="cuatro">Usted acepta cumplir con las leyes y regulaciones de control de exportaciones y reexportaciones, incluidas, entre otras, las EAR y las sanciones económicas y de intercambio que mantiene la OFAC. Específicamente, acepta que no venderá, exportará, reexportará, transferirá, desviará, lanzará ni dispondrá de cualquier producto, software o tecnología (incluidos los productos derivados o basados en dicha tecnología), de manera directa o indirecta, que reciba de parte de Spotify conforme a los Términos a cualquier destino, entidad o persona prohibida por las EAR, las sanciones económicas y de intercambio mantenidas por la OFAC o cualquier otra ley o regulación pertinente de los Estados Unidos o cualquier otra jurisdicción sin obtener una autorización previa obligatoria de las autoridades gubernamentales competentes conforme a dichas leyes y regulaciones.</p>
+    <details>        
+        <summary>
+            <h2 id="cuatro"><b>4. Derechos de propiedad intelectual y de contenido</b></h2>
+        </summary>        
+        <p><b>Contenido de usuario</b></p>
+        <a href="">El contenido que usted publica en el servicio</a>
+    </details>
+    <p>Los usuarios de Sp&oacute;tify pueden publicar, subir o aportar contenido al Servicio de Spotify ("Contenido de usuario"). Para evitar dudas, el término "Contenido de usuario" incluye toda la información, los materiales y otro contenido que los usuarios agregan, crean, suben, envían, distribuyen o publican en el Servicio de Spotify (incluida a la Comunidad de soporte de Spotify).</p>
 
     <p>Usted es el único responsable del Contenido de usuario que publica.</p>
 
