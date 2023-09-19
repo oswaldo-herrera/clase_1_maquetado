@@ -1,0 +1,163 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*cuando hay padd y margg como parte de sus medida por su defecto*/
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/*menu navegacion*/
+.menuNav{
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    font-size:2.1em;
+    /*me permite el ancho de un elemento inline y agregar margen*/
+    display: inline-block;
+}
+
+.menuNav ul{
+    display: inline;
+    margin-left: auto;
+}
+
+.menuNav ul li {
+    display: inline;
+}
+
+.menuNav ul li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 1.2em;
+    color: #eee;
+}
+
+/* aqui va el hover */
+
+
+/* imagen de fondo en section hero */
+.bg-image{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    
+    
+    background: url("https://images.pexels.com/photos/18150772/pexels-photo-18150772/free-photo-of-pajaro-comiendo-colorido-fotografia-de-animales.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero-content{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 40vh;
+    
+}
+
+/* seccion filas de articulos */
+
+
+.fila{
+    width: 100%;
+    padding: 1em;
+}
+.image-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.text-container{
+    
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    padding: 2em;
+    text-align: center;
+}
+
+/*  estilos responsivos */
+/* media para tablets*/
+@media secreen and(min-width:6001px) and (max-width:991px){
+    .hero-content h1{
+        font-size: 3em;
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
+        margin: 1em 0;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+        
+    }
+}
+
+/* medias queries para pantallas medianas para arriba*/
+@media screen and (min-width:992px){
+   
+    .bg-image{
+        
+        width: 100%;
+        position: relative;   
+        background: url("https://images.pexels.com/photos/1846387/pexels-photo-1846387.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+    }
+    .hero-content h1{
+        font-size: 2.5em;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5em;
+        margin: 1em 0;
+    }
+
+    .hero-content p {
+        font-size: 1.4em;
+        
+    }
+
+    .fila{
+        display: inline-block;
+    }
+
+
+    .image-container{
+        float: left;
+        width: 50%;
+       
+        
+    }
+
+    .margen{
+      
+       
+        margin: 100px auto;
+    }
+}
