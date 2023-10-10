@@ -1,0 +1,25 @@
+//variables de estilos
+$bgColorBlack:#863a3a;
+$bodyFontSize: 1.2em;//16px 19
+$monoSpaceFont: monospace;
+$courierSpaceFont: courier;
+
+//esta es para celulares
+$xsBodyFontSize: 1.2em;
+$lgBodyFontSize: 2.2em;
+
+
+
+
+@import "body";
+@import "responsive";
+
+
+
+// .body{
+//     background-color: $bgColorBlack;
+// }
+
+// .p{
+//     color: $bgColorBlack;
+// }

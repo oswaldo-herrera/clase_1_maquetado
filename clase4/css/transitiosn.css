@@ -1,0 +1,76 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: #004466;
+}
+
+.child{
+    width: 50%;
+    height: 50%;
+    background-color: darkred;
+    /* transition:all 1s ease; */
+    /* animation: left-to-right 1s ease-in-out; */
+    animation: left-to-right 1s ease-in-out infinite forwards alternate;
+    animation-play-state: paused;
+}
+
+.parent:hover .child{
+    /* transform: translateX(100%);
+    background-color: aquamarine;
+    border-radius: 50%;
+    color:aquamarine; */
+    /* animation: left-to-right 1s ease-in-out infinite forwards alternate; */
+    animation-play-state: running;
+}
+
+.img_trans{
+    width: 400px;
+    transition: filter 1s ease-in-out;
+}
+
+.img_trans:hover{
+    filter: grayscale(60%);
+}
+
+/* animatioin */
+@keyframes left-to-right{
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateY(100%);
+    }
+    66%{
+        transform: translateX(100%) translateY(100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+/* loading-spinner */
+
+.transition-3{
+    width: 100%;
+
+}
+
+.loading-spinner{
+    width: 30px;
+    height: 30px;
+    border: 4px solid rgb(130, 130, 130);
+    border-top: 4px solid #0077cc;
+    margin: 20px auto;
+    border-radius: 50px;
+    animation: loading-spinner 2s linear infinite;
+}
+
+@keyframes loading-spinner {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

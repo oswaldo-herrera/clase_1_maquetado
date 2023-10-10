@@ -1,0 +1,27 @@
+body{
+    background-color: $bgColorBlack;
+    font-size: lgBodyFontSize;
+} 
+.monospaceFont{
+    font-family: $monoSpaceFont;
+}
+
+.courierFont{
+    font-family: $courierSpaceFont;
+}
+
+.sectionList {
+    ul{
+        border:1px solid white;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            padding:2em;       
+            color: blue;
+            
+        }
+        .first{
+            flex-grow: 1;
+        }
+    }
+}

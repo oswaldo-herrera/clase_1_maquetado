@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Clase 1</title>
+    <title>Spotify</title>
     <style>
         /*
         span{
@@ -26,17 +26,64 @@
             border: 20px red solid;
         }
         */
+
+        body{
+            color: antiquewhite;
+        }
+
+        body h1{
+            color: black;
+        }
+
+      
+        
+        nav, ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #000000;
+            
+        }
+
+        nav ul, li, a {
+            display: block;
+            color: #f0f0f0;
+            padding: 8px 16px;
+            text-decoration: none;
+            
+        }
+
+        .registrate{
+            text-align: right;
+        }
+
+
+        .text-a{
+            color: rgb(13, 127, 89);
+            text-decoration: none;
+            padding-bottom: 5px;
+        }
+        .text-a:hover{
+            color: rgb(202, 199, 199);
+        }
     </style>
 </head>
-<body style="background-color: rgb(241, 237, 237);">
+<body >
+    <nav>
+        <ul>
+            <li><a class="registrate" href="">Registrate</a></li>
+        </ul>
+    </nav>
+
     <h1>Términos de uso de Spotify</h1>
-    <a href="#introduccion">1. Introducción</a>
+    <a class="text-a" href="#introduccion">1. Introducción</a>
     <br>
-    <a href="#servicio">2. El Servicio de Spotify que proporcionamos</a>
+    <a class="text-a" href="#servicio">2. El Servicio de Spotify que proporcionamos</a>
     <br>
-    <a href="#cuenta">3. El uso del Servicio de Spotify</a>
+    <a class="text-a" href="#cuenta">3. El uso del Servicio de Spotify</a>
     <br>
-    <a href="#cuatro">4. Derechos de propiedad intelectual y de contenido</a>
+    <a class="text-a" href="#cuatro">4. Derechos de propiedad intelectual y de contenido</a>
     <br>
     <!-- <a href="#cinco">5. Servicio de atención al cliente, información, preguntas y quejas</a>
     <br>

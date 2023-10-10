@@ -1,0 +1,113 @@
+/* selector hijo */
+/*
+selecciona la etiqueta span que sea hijo directo de la etiqueta div
+especificidad
+*/
+
+div.selector_hijo  > span {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+div.selector_hijo a > span {
+    color: brown;
+    font-size: 50px;
+}
+
+/*selector adyacente*/
+div.selector_adyacente h3 + p  {
+    background-color: black;
+    color: yellow;
+} 
+/* ~indicar que vamos hacer el hermano general*/
+div.selector_hermano_general h4 ~p { 
+    background-color: red;
+    color: blue;
+}
+/*quitar viñeta de la lista*/
+
+nav ul {
+    list-style: none;
+}
+
+/*pseudocclases*/
+.body2{
+    background-color: #fcf7f8;
+}
+.contenedor {
+    text-align: center;
+    border: 2px solid #e3e3e3;
+    margin: 20px;
+}
+
+.enlace {
+    margin: 10px;
+    text-decoration: none;
+}
+.contenedor > p:hover{
+    color: red;
+}
+
+.enlace:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.enlace:active{
+    background-color: black;
+}
+
+.enlace:visited{
+    color: #b1b1b1;
+    
+}
+
+.enlace:link{
+    color: yellow;
+}
+
+/*first child $$ last child  */
+.parrafos p {
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}
+.parrafos p:first-child{
+    background-color: blue;
+}
+
+.parrafos p:last-child{
+    background-color: aquamarine;
+}
+
+
+/*  firstoftype && last of type */
+.elementos p:first-of-type{
+    background-color: burlywood;
+    color: white;
+    text-decoration: dotted;
+}
+
+.elementos p:last-of-type{
+    background-color: red;
+    color: white;
+}
+
+.lista {
+    list-style: none;
+}
+
+/* .lista:nth-child(){ */
+/* .lista:nth-child(even){ */
+/* .lista:nth-child(odd){ */
+.lista:nth-child(2){
+    padding: 15px;
+    background-color: grey;
+    color: blue;
+}
+
+.lista:nth-last-child(2){
+    padding: 15px;
+    background-color: grey;
+    color: blue;
+}

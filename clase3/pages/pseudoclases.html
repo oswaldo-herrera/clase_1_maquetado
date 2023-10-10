@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>pseudoclases</title>
+</head>
+<body class="body2">
+    <h1>Pseudoclases</h1>
+    <section class="contenedor">
+        <p>: active/:link/:visited/:hover</p>
+        <a href="#" class="enlace">ir a una pagina vacia</a>
+        <a href="https://www.google.com/" class="enlace">ir a google</a>
+
+    </section>
+
+    <section class="contenedor">
+        <p>:first-child && :last_child</p>
+        <section class="parrafos">
+            <p>parrafo1</p>
+            <p>parrafo3</p>
+            <p>parrafo1</p>
+
+        </section>
+    </section>
+
+    <section class="contenedor">
+        <p>:first-of-type && :last_of-type</p>
+        <div class="elementos">
+            <div>hola soy un div</div>
+            <span>soy span</span>
+            <p>hola soy un parrafo</p>
+            <div>hola soy un div</div>
+            <p>parrafo1</p>
+        </div>
+    </section>
+
+    <section class="contenedor">
+        <p>:nth-child() / :nth-last-child</p>
+        <li class="lista">soy la opcion 1</li>
+        <li class="lista">soy la opcion 2</li>
+        <li class="lista">soy la opcion 3</li>
+        <li class="lista">soy la opcion 4</li>
+        <li class="lista">soy la opcion 5</li>
+    </section>
+</body>
+</html>

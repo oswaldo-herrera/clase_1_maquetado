@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividad</title>
+    <style>
+        /*div,p,h1,h2,h3,h4,h5,h6,ul{
+            outline: solid red;
+        }*/
+
+        
+    </style>
+    <!--rem es para html y 1 em = por default 16px si alteras el font size global se convierte en lo que le pongas-->
+    <style>
+        .sectionResponsive{
+            width: 80%;
+            padding: 1em;
+            border: 1px solid blue;
+        }
+
+       
+
+        
+
+        /*@media screen and (min-width:320px) and (max-width:600px) {
+            p{
+                color:greenyellow;
+            }
+        }*/
+
+        /*@media screen and (max-width:720px){
+            .sectionResponsive{
+                width: 40%;
+                color: white;
+                background-color: black;
+                border: none;
+            }
+        }*/
+
+        /*@media screen and  (max-width:768px) {
+            .sectionResponsive{
+                background-color: aqua;
+            }
+
+            p{
+                background-color: greenyellow;
+            }
+        }*/
+
+        /*@media screen and  (min-width:992px) {
+            body{
+                background-color: blueviolet;
+                
+            }
+            
+            p{
+                color: rgb(255, 183, 0);
+               
+            }
+
+            .sectionResponsive{
+                border: 2px solid red;
+            }
+
+        }*/
+
+        @media screen and (min-width:1080px){
+            body{
+                background-color: rgba(189, 96, 15, 0.664);
+            }
+            .sectionResponsive{
+                border: 1px solid rgb(255, 174, 0);
+            }
+        }
+
+        @media screen and  (min-width:1200px) {
+            body{
+                background-color: burlywood;
+                color: cadetblue;
+            }
+
+            .sectionResponsive{
+                border: none;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <!-- <div>div</div>
+    <p>parrafo</p>
+    <h1>tittle</h1>
+    <h2>tittle</h2>
+    <h3>tittle</h3>
+    <h4>tittle</h4>
+    <h5>tittle</h5>
+    <h6>tittle</h6>
+    <ul>
+        lista
+    </ul>
+
+    
+    <a href="">enlace</a>
+    <span>span</span>
+    <label for="">label para un filed</label> -->
+
+    <!-- <div style="width: 100%; outline: solid red">
+        <div style="width: 50%; outline:
+        solid blue; margin: 10px auto; height: 50px"></div>
+    </div> -->
+
+    <section class="sectionResponsive">
+        <h1>Seccion responsive</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eveniet atque officia dolore architecto optio eaque mollitia excepturi expedita? Autem perspiciatis temporibus earum voluptate molestiae sapiente tempore eius mollitia commodi!
+        </p>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    outline: solid red;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: #004466;
+    margin: 20px 0;
+    font-size: 24px;
+    text-align: center;
+    color: aliceblue;
+    /* position: static; */
+}
+
+
+
+.relative{
+    position: relative;
+    /* top: 20px;
+    left: 100px; */
+}
+
+.absolute{
+    position: absolute;
+    /* top: 200px;
+    left: 200px; */
+}
+
+.menu{
+    outline: solid blue;
+    height: 300px;
+}
+
+.menu :nth-child(1){
+    left: 400px;
+}
+
+.menu :nth-child(2){
+    left: 470px;
+}
+
+.menu :nth-child(3){
+    left: 540px;
+}
+
+.menu :nth-child(4){
+    left: 0;
+    top: 25px;
+}
+
+
+/* position fixed*/
+
+
+.fixed{
+    position: fixed;
+    right: 0;
+}
